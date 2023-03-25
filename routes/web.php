@@ -46,7 +46,7 @@ Route::get('/minha_conta', [UserController::class, 'minha_contaView']);
 
 Route::get('/pesquisa', [UserController::class, 'pesquisaView']);
 
-// Route::get('/pesquisa', function () {
+// Route::get('/pesquisa', function() {
 //     return view('pesquisa');
 // });
 
